@@ -209,7 +209,7 @@ class CommentBox extends Component {
                     id: comment.id,
                     content: comment.content,
                     user: comment.user
-                });
+                })
             }),
             React.createElement(CreateComment, {
                 onCommentSubmit: this.handleCommentSubmit
